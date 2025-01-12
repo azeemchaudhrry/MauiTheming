@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xaml-comp compile="true" ?>
+<ResourceDictionary
+    x:Class="MauiTheming.Resources.Theme.LightTheme"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <!--  Colors  -->
+    <Color x:Key="TextPrimary">#CC000000</Color>
+    <Color x:Key="TextSecondary">#80000000</Color>
+    <Color x:Key="IconForeground">#E6000000</Color>
+    <Color x:Key="IconBackground">#66000000</Color>
+    <Color x:Key="BackgroundBase">#FFEFEFEF</Color>
+    <Color x:Key="BackgroundElevated">#FFFEFEFE</Color>
+    <Color x:Key="CursorBackground">#FF0069B4</Color>
+    <Color x:Key="CursorForeground">#FFFDFDFD</Color>
+    <Color x:Key="Separator">#FFDFDFDF</Color>
+    <Color x:Key="PipelineAir">#805EE9FF</Color>
+    <Color x:Key="PipelineGas">#80FFD000</Color>
+    <Color x:Key="ErrorBackground">#FFFF1100</Color>
+    <Color x:Key="ErrorTextPrimary">#FFFFFFFF</Color>
+    <Color x:Key="ErrorTextSecondary">#80FFFFFF</Color>
+    <Color x:Key="SuccessBackground">#FF00C800</Color>
+    <Color x:Key="SmokeOverlay">#99FFFFFF</Color>
+    <Color x:Key="ModifiedValueColor">#FF0000FF</Color>
+
+    <!--  Imagery  -->
+    <x:String x:Key="DotnetBotImage">dotnet_bot_light.png</x:String>
+
+
+    <!--  Brushes  -->
+    <LinearGradientBrush x:Key="ButtonGradient">
+        <GradientStop Offset="0.0" Color="#FF6BCFFB" />
+        <GradientStop Offset="1.0" Color="#FF2B88D8" />
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="BackgroundGradient">
+        <GradientStop Offset="0.0" Color="#FFEFEFEF" />
+        <GradientStop Offset="1.0" Color="#FFFDFDFD" />
+    </LinearGradientBrush>
+
+</ResourceDictionary>
